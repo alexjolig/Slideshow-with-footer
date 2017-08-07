@@ -1,3 +1,11 @@
+/*Lex Slider.
+A slideshow with footer plugin
+Author: Ghasem Sherafati
+Nickname: Alex Jolig
+E-Mail:alex.jolig@gmail.com
+This plugin has been wrriten under MIT licence
+*/
+
 (function($){
 	$.fn.lexSlider = function(options){
 			var setting=$.extend({
