@@ -53,4 +53,8 @@ $("#lexSlider").lexSlider({
 Since I'm a Persian, the items are listed as right-to-left.
 If you want to use it for left-to-right, change `float` to `left` for `#lexSlider .slider-items ul li` in `lex-slider.css`.
 
+## Update 1.2
+
+Now you can add as much item as you want to the slideshow. (just dont go too far!)
+
 Enjoy and let me know if you have any improvement for it!

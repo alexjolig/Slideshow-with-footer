@@ -66,7 +66,8 @@ This plugin has been wrriten under MIT licence
 									: $slider.find('.slider-image a:last-of-type');
 			}
 
-			//Create slider footer with ul and li items based on "data-title" attribute from a tags
+			//Create slider footer with ul and li items based on "data-title" attribute from <a> tags
+			var aCount = 0; //Count images to set li width based on it
 			var ul = $("<ul></ul>");
 			$slider.find(".slider-image a").each(function(){
         		var li = $("<li></li>");
@@ -81,14 +82,20 @@ This plugin has been wrriten under MIT licence
 					var img = $slider.find(".slider-image a").eq(index);
 					gallery(img);
 				});
+				aCount++;
     		});
 			$("div.slider-items").append(ul);
+			$slider.find(".slider-items li").css({width:(100/aCount)+"%"});
 			$slider.find(".slider-items li").first().addClass("active");
 			
 			function resetTiming() {
 				clearInterval(intVal);
 				intVal = setInterval(gallery,setting.duration);
 			}
+			
+			$(window).resize(function(){
+				$slider.width((setting.width * $(window).innerWidth() /100) - 2);
+			});
 		});
 	};
 }(jQuery));

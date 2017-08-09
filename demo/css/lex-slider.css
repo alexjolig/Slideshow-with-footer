@@ -121,8 +121,6 @@ time, mark, audio, video {
 }
 
 #lexSlider .slider-items ul li span {
-	
-	font-family: nazanin;
 	display: table-cell;
 	vertical-align: middle;
 }
@@ -139,4 +137,11 @@ time, mark, audio, video {
 	border-left: 10px solid transparent;
 	border-bottom: 10px solid #fff;
 	transition: all 0.5s;
+}
+
+/*  responsive design */
+@media screen and (max-width: 768px) {
+	#lexSlider .slider-items ul li span {
+		font-size: 15px;
+	}
 }
