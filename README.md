@@ -1,5 +1,6 @@
-# Slideshow-with-footer 
-A simple slideshow plugin with footer
+# jQuery Slideshow-with-footer 
+A simple jQuery slideshow plugin with footer
+
 This is a simple, yet handy plugin to create a lovely slideshow with footer for each item.
 I call it Lex Slider!
 
