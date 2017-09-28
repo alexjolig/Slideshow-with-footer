@@ -1,3 +1,5 @@
 $(function(){
-	$("#lexSlider").lexSlider({duration:4000});
+	$("#lexSlider").lexSlider({
+			duration:4000
+	});
 });
