@@ -1,5 +1,6 @@
-# Slideshow-with-footer 
-A simple slideshow plugin with footer
+# jQuery Slideshow-with-footer 
+A simple jQuery slideshow plugin with footer
+
 This is a simple, yet handy plugin to create a lovely slideshow with footer for each item.
 I call it Lex Slider!
 
@@ -59,8 +60,7 @@ If you want to use it for left-to-right, change `float` to `left` for `#lexSlide
 
 Now you can add as much item as you want to the slideshow. (just dont go too far!)
 
-Enjoy and let me know if you have any improvement for it!
-
 ## Update 1.3
-
 A progress bar has been added at the top of the slideshow
+
+Enjoy and let me know if you have any improvement for it!
